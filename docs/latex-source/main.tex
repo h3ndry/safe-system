@@ -14,7 +14,7 @@
 \input{hicss-packages.tex}
 \newcommand{\sansserifformat}[1]{\fontfamily{cmss}{ #1}}%
 
-\setlength\titlebox{5cm}
+\setlength\titlebox{6cm}
 
 % You can expand the titlebox if you need extra space
 % to show all the authors. Please do not make the titlebox
@@ -26,64 +26,147 @@
  % Comment this for initial manuscript 
  % Uncomment this for final manuscript
 
-\author{First Author \\
-  Affiliation \\
-  {\underline{ email@domain}} \\\And
-  Second Author \\
-  Affiliation \\
-  {\underline{ email@domain} }\\\And 
-  Third Author \\
-  Affiliation \\
-  {\underline{email@domain}} \\}
+\author{BD Zwane \\
+  \textbf{<student number>}\\
+  \em{Computer System Engineering}\\
+  \em{Thswane University of Technology}\\
+  \em{Pretoria South Africa}\\
+
+  \And
+
+  SH Khoza \\
+  \textbf{214651459}\\
+  \em{Computer System Engineering}\\
+  \em{Thswane University of Technology}\\
+  \em{Pretoria South Africa}\\
+
+  \And 
+
+  <another member> \\
+  \textbf{<student number>}\\
+  \em{Computer System Engineering}\\
+  \em{Thswane University of Technology}\\
+  \em{Pretoria South Africa}\\}
 
 \date{}
 
 \begin{document}
+
 \maketitle
+
 \begin{abstract}
-The abstract is to be in fully-justified italicized text, at the top of the
-left-hand column as it is here, below the author information. Use the word
-“Abstract” as the title, in 12-point Times, boldface type, centered relative to
-the column, initially capitalized. The abstract is to be in 10-point,
-single-spaced type, and up to 150 words in length. Leave two blank lines after
-the abstract, and then begin the main text. 
+A Parcel Counter is a domestic counter-to-counter parcel service where a client
+can send or receive parcels from any where across the country. Due to high 
+volume of parcel being sent at a given time, client parcel end up getting lost 
+and some being received by wrong client. We develop a shape detection to add 
+a level of protection to clients parcel. The implententaion of object detection
+make more sence to parcel counter since the will be no nesesary to create an
+account when you wnat to send your parcel and improve it will limit the humanly
+mistale that are made when parkaging the parcel,i\\ 
+
+Raspberry pi, Finite state machine, Multiplexers, detection algorithm
+name, OpenCV
 
 \end{abstract}
 
 \section{Introduction}
 
-All manuscripts must be in English. {\em Manuscripts must not exceed 10 pages,
-single-spaced and double-columned}.  This includes all graphs, tables, figures
-and references. These guidelines include complete descriptions of the fonts,
-spacing, and related information for producing your proceedings manuscripts.
-Please follow the steps outlined below preparing your final manuscript. {\em
-Read the following carefully. The quality of the finished product largely
-depends upon receiving your cooperation and help at this particular stage of
-the publication process.}
+Write this part in  paragraph
+The first paragraph gives a general idea of the current world and how lives has
+been affected by the new technology and methods of detection. (Please read some
+document on shape recognition in security and give at least two reference that
+are accessible so that I might be able to check your reference) when you
+reference a document cite it as [1] and if the reference section [1] should be
+the reference you tagged as [1]\\
+
+The second paragraph should indicate what other people have done in the field
+of security recognition. What are the  similar projects and please write this
+as reference (you need to give 4 to 6 reference ) Please write this as though
+you are telling the story.\\
+
+The third paragraph should emphasize on the method that you have decided and
+why you have decided to used is. (if you have different methods for each
+methods you have 1 paragraph) you can support you choice with 1 or 2
+reference\\
+
+The fourth paragrath should tell us about the benefits of this project, what
+are we gaining in implementing this project.\\
+
+The last paragraph now is about the organization of the Report :  (Leave it as
+it is as I am writing it for you ) : The remainder of this report is organized
+as follow: Section two discuss the background and related work on “ Fill in the
+name of your project”. Section 3 shown the methods used for this project.
+Section 4: Shows the simulation obtained while section 5 discuss the obtained
+results. Finally section 6 conclude the report.
 
 
-\section{Formatting your paper}
+\section{Background : related work}
 
-All printed material, including text, illustrations, and charts, must be kept
-within a print area of 6-1/2 inches (16.51 cm) wide by 8-7/8 inches (22.51 cm)
-high. Do not write or print anything outside the print area. All text must be
-in a two-column format. Columns are to be 3 inches (7.85 cm) wide, with a
-5.1/16 inch (0.81 cm) space between them. Text must be fully justified. \\ This
-formatting guideline provides the margins, placement, and print areas. If you
-hold it and your printed page up to the light, you can easily check your
-margins to see if your print area fits within the space allowed.
+First paragraph talk again about your project and its impact in our modern society.\\
+
+Choose 2 or 3 projects that you know, that have been are close to your project
+and explain why those projects are close to yours and how are they important.\\ 
+
+The last paragraph of this section tells why your project is good and why is it
+different with other projects.\\
+
+\section{Methods}
+
+This parts speaks about the methods that you will use to implement the project.
+The methods for us will be mostly Finite sate machine, multiplexer, shape
+detection methods. For each methods that you decide to use, present them in
+paragraph
+
+\subsection{Operations of the project}
+
+Explain all the algorithm that you are using here. List them as A, B C … (2 or
+3 algorithms are enough.) Algorithm. Flow chart of your project can be put
+here. You can use any software to draw it and copy the image here ( Please
+don’t draw it with words )
 
 
-\section{Main title}
+\subsection{Algorithms}
+Explain all the algorithm that you are using here. List them as A, B C … (2
+algorithms are enough.) Algorithm/\\
+Flow chart should be used to explain your algorithm.\\
+After explaining the algorithm, you can summarize it as follow:\\
 
-The main title (on the first page) should begin 1-3/8 inches (3.49 cm) from the
-top edge of the page, centered, and in Times 14-point, boldface type.
-Capitalize the first letter of nouns, pronouns, verbs, adjectives, and adverbs;
-do not capitalize articles, coordinate conjunctions, or prepositions (unless
-the title begins with such a word). Leave two 12-point blank lines after the
-title.
+Algorithm 1:
+\begin{enumerate}
+	\item Start the project
+	\item Upload the image 
+	\item Check if the shape is recognized ?
+  \item Does it match with any stored or acknowledge shape
+  \item Give the output message
+\end{enumerate}
 
-\section{Author name(s) and affiliation(s) }
+This is just an example that I have made for you. You can customize it as you
+want.
+
+\subsection{Equations}
+If you have equations in your report please type them using the recommendation below
+The equations are an exception to the prescribed specifications of this
+template. You will need to determine whether or not your equation should be
+typed using either the Times New Roman or the Symbol font (please no other
+font).
+
+
+\section{Simualtions}
+Here you can put figures or images of your software simulations, the outputs
+waves of Quartus can be placed and explain each figure. Put some pictures of
+your projects simulations, some LCD display output.
+
+% For one-column wide figures use
+\begin{figure}[thb]
+	% Use the relevant command to insert your figure file.
+	% For example, with the graphicx package use
+    \centering
+	\includegraphics[trim={3cm 3cm 3cm 3cm}, clip,width=0.9\linewidth]{sample-image}
+	% figure caption is below the figure
+	\caption{Sample figure with caption.}
+	\label{fig: sample-figure}       % Give a unique label
+\end{figure}
+
 
 Author names and affiliations must be included in the submitted Final Paper for
 Publication. Leave two 12-point blank lines after the author’s information. 
@@ -104,121 +187,36 @@ base fonts.  You are encouraged to limit your font selections to Helvetica,
 Arial, and Symbol as needed. These fonts are automatically installed with the
 viewing software. 
 
-\section{Page Numbers}
 
-Please DO NOT include page numbers in your manuscript.
 
  
 
-\section{Graphics/Images}
 
-All images must be embedded in your document or included with your submission
-as individual source files. The type of graphics you include will affect the
-quality and size of your paper on the electronic document disc. In general, the
-use of vector graphics such as those produced by most presentation and drawing
-packages can be used without concern and is encouraged.
+\section{Discussions}
+Discuss all the results of your projects Discuss what you have achieve and tell
+us why it is important. Explain every output figure that you have. What it does
+and how you understand it.
 
-\begin{itemize}
-\item Resolution: 600 dpi
-\item Color Images: Bicubic Downsampling at 300dpi
-\item Compression for Color Images: JPEG/Medium Quality
-\item Grayscale Images: Bicubic Downsampling at 300dpi
-\item Compression for Grayscale Images: JPEG/Medium Quality
-\item Monochrome Images: Bicubic Downsampling at 600dpi
-\item Compression for Monochrome Images: CCITT Group 4
-\end{itemize}
-
-If your paper contains many large images they will be down-sampled to reduce
-their size during the conversion process.  However the automated process used
-will not always produce the best image, and you are encouraged to perform this
-yourself on an image by image basis. The use of bitmapped images such as those
-produced when a photograph is scanned requires significant storage space and
-must be used with care.
-
-\section{Main text}
-
-Type your main text in 10-point Times, single-spaced. Do not use
-double-spacing. All paragraphs should be indented 1/4 inch (approximately 0.5
-cm).  Be sure your text is fully justified—that is, flush left and flush right.
-Please do not place any additional blank lines between paragraphs. \\
-\textbf{Figure and table captions} should be 9-point boldface Helvetica (or a
-similar sans-serif font).  Callouts should be 9-point non-boldface Helvetica.
-Initially capitalize only the first word of each figure caption and table
-title. Figures and tables must be numbered separately. For example: ``Figure 1.
-Database contexts'', ``Table 1. Input data''. Figure captions are to be
-centered below the figures. Table titles are to be centered above the tables.
-
-% For one-column wide figures use
-\begin{figure}[thb]
-	% Use the relevant command to insert your figure file.
-	% For example, with the graphicx package use
-    \centering
-	\includegraphics[trim={3cm 3cm 3cm 3cm}, clip,width=0.9\linewidth]{sample-image}
-	% figure caption is below the figure
-	\caption{Sample figure with caption.}
-	\label{fig: sample-figure}       % Give a unique label
-\end{figure}
-
-\section{First-order headings}
-
-For example, “1. Introduction”, should be Times 12-point boldface, initially
-capitalized, flush left, with one 12-point blank line before, and one blank
-line after. Use a period (“.”) after the heading number, not a colon. 
-
-\subsection{Second-order headings}
- 
-As in this heading, they should be Times 11-point boldface, initially
-capitalized, flush left, with one blank line before, and one after. 
-
-\subsubsection{Third-order headings. }
-
-Third-order headings, as in this paragraph, are discouraged. However, if you
-must use them, use 10-point Times, boldface, initially capitalized, flush left,
-followed by a period and your text on the same line. 
-
-\section{Footnotes}
-
-      Use footnotes sparingly and place them at the bottom of the column on the
-      page on which they are referenced. Use Times New Roman 8-point type,
-      single-spaced. To help your readers, try to avoid using footnotes
-      altogether and include necessary peripheral observations in the text
-      (within parentheses, if you prefer, as in this sentence). 
-
-% Fonts specification --- not shown as it doesn't exist in the Word document either. 
-
-%\section{Fonts}
-
-%A summary of fonts is provided in Table \ref{tab: fonts}. 
-
-%\begin{table}[thb]
-%\centering
-%\caption{\label{font-table} Font guide. \vskip 3pt }
-%\label{tab: fonts}
-%\begin{tabular}{l|rl}
-%\hline \bf Type of Text & \bf Font Size & \bf Style \\ \hline
-%paper title & 14 pt &  \bf bold \\
-%authors & 10 pt &  \underline{email} underlined \\
-%abstract title & 12 pt &  \bf bold\\
-%abstract text & 10 pt &  \it italic\\
-%section titles & 12 pt & \bf bold \\
-%subsection titles & 11 pt & \bf bold \\
-%document text & 10 pt  & \\
-%captions & 9 pt & \sansserifformat{\captionsize sans-serif, \bf bold} \\
-%bibliography & 9 pt & \\
-%footnotes & 8 pt & \\
-%\hline
-%\end{tabular}
-%\end{table}
+\section{Conclusion}
+Conclude your paper efficiently by giving the overall statement of your
+project. State what you have achieved and why it was important achieving. If
+possible give 
 
 
-\section{References} 
+% \section{References} 
 
-List and number all bibliographical references in 9-point Times, single-spaced, at the end of your paper. When referenced in the text, enclose the citation number in square brackets, for example \cite{Jones2015,Smith2015} and \cite{Smith2015}. Where appropriate, include the name(s) of editors of referenced books.
+% The template will number citations consecutively within brackets [1]. The
+% sentence punctuation follows the bracket [2]. Refer simply to the reference
+% number, as in [3]—do not use “Ref. [3]” or “reference [3]” except at the
+% beginning of a sentence: “Reference [3] was the first ...”
 
-% if added before the last page, this command can help balancing columns
-%\addtolength{\textheight}{-.2cm} 
+% \begin{small}
+%     [1] G. Eason, B. Noble, and I. N. Sneddon, “On certain integrals of Lipschitz-Hankel type involving products of Bessel functions,” Phil. Trans. Roy. Soc. London, vol. A247, pp. 529–551, April 1955. (references)
 
-%Bibliography 
+%     [2] J. Clerk Maxwell, A Treatise on Electricity and Magnetism, 3rd ed., vol. 2. Oxford: Clarendon, 1892, pp.68–73.
+% \end{small}
+
+
 \bibliographystyle{ieeetr}
 \bibliography{sample}
 
