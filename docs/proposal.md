@@ -64,6 +64,10 @@ results.Finally section 6 conclude the report.
 
 ### Background: related work
 
+The ability to send packages from one place to another is very important in todays
+society, it limit traffic in the road that would have happens if people where
+to delive themselve due it prevent the spread of coronavirus, according to world
+headly ogranis 08521
 First paragraph talk again about your project and its impact in our modern society.
 Choose 2 or 3 projects that you know, that have been are close to your project
 and explain why those projects are close to yours and how are they important. 
