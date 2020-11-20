@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.13)  25 OCT 2020 00:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.9.13)  18 NOV 2020 10:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -23,6 +23,34 @@ File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen134
 )
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2020/02/14 3.40 The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2020/02/14 3.40 Babel switching mechanism
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/british.ldf
+Language: british 2017/06/06 v3.3r English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2020/02/14 3.40 Babel common definitions
+\babel@savecnt=\count175
+\U@D=\dimen135
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count176
+)
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language31) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language31) on input line 108.
+)))
 (./hicss-packages.tex
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -37,17 +65,17 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2019/11/07 v1.0c TeX engine tests
 ))
-\Gm@cnth=\count175
-\Gm@cntv=\count176
-\c@Gm@tempcnt=\count177
-\Gm@bindingoffset=\dimen135
-\Gm@wd@mp=\dimen136
-\Gm@odd@mp=\dimen137
-\Gm@even@mp=\dimen138
-\Gm@layoutwidth=\dimen139
-\Gm@layoutheight=\dimen140
-\Gm@layouthoffset=\dimen141
-\Gm@layoutvoffset=\dimen142
+\Gm@cnth=\count177
+\Gm@cntv=\count178
+\c@Gm@tempcnt=\count179
+\Gm@bindingoffset=\dimen136
+\Gm@wd@mp=\dimen137
+\Gm@odd@mp=\dimen138
+\Gm@even@mp=\dimen139
+\Gm@layoutwidth=\dimen140
+\Gm@layoutheight=\dimen141
+\Gm@layouthoffset=\dimen142
+\Gm@layoutvoffset=\dimen143
 \Gm@dimlist=\toks15
 ) (./hicss.sty
 Conference Style for HICSS -- released September 15, 2017
@@ -91,15 +119,15 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count178
+\etb@tempcnta=\count180
 )
 (/usr/share/texlive/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2020/01/13 v3.5 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count179
-\FV@InFile=\read2
+\FV@CodeLineNo=\count181
+\FV@InFile=\read3
 \FV@TabBox=\box45
-\c@FancyVerbLine=\count180
-\FV@StepNumber=\count181
+\c@FancyVerbLine=\count182
+\FV@StepNumber=\count183
 \FV@OutFile=\write3
 )
 (/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
@@ -111,56 +139,56 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count182
+\linenopenalty=\count184
 \output=\toks16
-\linenoprevgraf=\count183
-\linenumbersep=\dimen143
-\linenumberwidth=\dimen144
-\c@linenumber=\count184
-\c@pagewiselinenumber=\count185
-\c@LN@truepage=\count186
-\c@internallinenumber=\count187
-\c@internallinenumbers=\count188
-\quotelinenumbersep=\dimen145
-\bframerule=\dimen146
-\bframesep=\dimen147
+\linenoprevgraf=\count185
+\linenumbersep=\dimen144
+\linenumberwidth=\dimen145
+\c@linenumber=\count186
+\c@pagewiselinenumber=\count187
+\c@LN@truepage=\count188
+\c@internallinenumber=\count189
+\c@internallinenumbers=\count190
+\quotelinenumbersep=\dimen146
+\bframerule=\dimen147
+\bframesep=\dimen148
 \bframebox=\box46
 LaTeX Info: Redefining \\ on input line 3056.
 )
-\c@FV@TrueTabGroupLevel=\count189
-\c@FV@TrueTabCounter=\count190
+\c@FV@TrueTabGroupLevel=\count191
+\c@FV@TrueTabCounter=\count192
 \FV@TabBox@Group=\box47
 \FV@TmpLength=\skip51
-\c@FV@HighlightLinesStart=\count191
-\c@FV@HighlightLinesStop=\count192
-\FV@LoopCount=\count193
+\c@FV@HighlightLinesStart=\count193
+\c@FV@HighlightLinesStop=\count194
+\FV@LoopCount=\count195
 \FV@NCharsBox=\box48
-\FV@BreakIndent=\dimen148
-\FV@BreakIndentNChars=\count194
-\FV@BreakSymbolSepLeft=\dimen149
-\FV@BreakSymbolSepLeftNChars=\count195
-\FV@BreakSymbolSepRight=\dimen150
-\FV@BreakSymbolSepRightNChars=\count196
-\FV@BreakSymbolIndentLeft=\dimen151
-\FV@BreakSymbolIndentLeftNChars=\count197
-\FV@BreakSymbolIndentRight=\dimen152
-\FV@BreakSymbolIndentRightNChars=\count198
-\c@FancyVerbLineBreakLast=\count199
+\FV@BreakIndent=\dimen149
+\FV@BreakIndentNChars=\count196
+\FV@BreakSymbolSepLeft=\dimen150
+\FV@BreakSymbolSepLeftNChars=\count197
+\FV@BreakSymbolSepRight=\dimen151
+\FV@BreakSymbolSepRightNChars=\count198
+\FV@BreakSymbolIndentLeft=\dimen152
+\FV@BreakSymbolIndentLeftNChars=\count199
+\FV@BreakSymbolIndentRight=\dimen153
+\FV@BreakSymbolIndentRightNChars=\count266
+\c@FancyVerbLineBreakLast=\count267
 \FV@LineBox=\box49
 \FV@LineIndentBox=\box50
-\FV@LineWidth=\dimen153
+\FV@LineWidth=\dimen154
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count266
-\calc@Bcount=\count267
-\calc@Adimen=\dimen154
-\calc@Bdimen=\dimen155
+\calc@Acount=\count268
+\calc@Bcount=\count269
+\calc@Adimen=\dimen155
+\calc@Bdimen=\dimen156
 \calc@Askip=\skip52
 \calc@Bskip=\skip53
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count268
+\calc@Ccount=\count270
 \calc@Cskip=\skip54
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
@@ -196,34 +224,34 @@ Package ifplatform Warning:
 
 ) (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
-\integerpart=\count269
-\decimalpart=\count270
+\integerpart=\count271
+\decimalpart=\count272
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip55
-\fb@frw=\dimen156
-\fb@frh=\dimen157
-\FrameRule=\dimen158
-\FrameSep=\dimen159
+\fb@frw=\dimen157
+\fb@frh=\dimen158
+\FrameRule=\dimen159
+\FrameSep=\dimen160
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count271
+\c@float@type=\count273
 \float@exts=\toks17
 \float@box=\box51
 \@float@everytoks=\toks18
 \@floatcapt=\box52
 )
-\minted@appexistsfile=\read3
+\minted@appexistsfile=\read4
 \minted@bgbox=\box53
 \minted@code=\write4
-\c@minted@FancyVerbLineTemp=\count272
-\c@minted@pygmentizecounter=\count273
+\c@minted@FancyVerbLineTemp=\count274
+\c@minted@pygmentizecounter=\count275
 \@float@every@listing=\toks19
-\c@listing=\count274
+\c@listing=\count276
 )
 runsystem(mkdir -p _minted-main)...disabled (restricted).
 
@@ -258,8 +286,8 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen160
-\Gin@req@width=\dimen161
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
@@ -279,9 +307,9 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen162
-\Hy@linkcounter=\count275
-\Hy@pagecounter=\count276
+\@linkdim=\dimen163
+\Hy@linkcounter=\count277
+\Hy@pagecounter=\count278
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
@@ -291,8 +319,8 @@ Now handling font encoding PD1 ...
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count277
-\pdfmajorversion=\count278
+\Hy@SavedSpaceFactor=\count279
+\pdfmajorversion=\count280
 Package hyperref Info: Hyper figures OFF on input line 4547.
 Package hyperref Info: Link nesting OFF on input line 4552.
 Package hyperref Info: Hyper index ON on input line 4555.
@@ -300,9 +328,9 @@ Package hyperref Info: Plain pages OFF on input line 4562.
 Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4800.
-\c@Hy@tempcnt=\count279
+\c@Hy@tempcnt=\count281
 LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen163
+\XeTeXLinkMargin=\dimen164
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -311,9 +339,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count280
-\Field@Width=\dimen164
-\Fld@charsize=\dimen165
+\Fld@menulength=\count282
+\Field@Width=\dimen165
+\Fld@charsize=\dimen166
 Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
@@ -327,9 +355,9 @@ LaTeX Info: Redefining \pageref on input line 6504.
 (/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count281
-\c@Item=\count282
-\c@Hfootnote=\count283
+\Hy@abspage=\count283
+\c@Item=\count284
+\c@Hfootnote=\count285
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -339,8 +367,8 @@ File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 (/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
-\Fld@listcount=\count284
-\c@bookmark@seq@number=\count285
+\Fld@listcount=\count286
+\c@bookmark@seq@number=\count287
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -382,12 +410,18 @@ See the minted package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.49 \begin{document}
+l.52 \begin{document}
                      
+? ^^[jk
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
 ? 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count286
+\l__kernel_color_stack_int=\count288
 \l__pdf_internal_box=\box54
 )
 
@@ -401,24 +435,24 @@ LaTeX Warning: Label `fig: sample-figure' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 52.
+LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+2.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -458,16 +492,16 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count287
-\scratchdimen=\dimen166
+\scratchcounter=\count289
+\scratchdimen=\dimen167
 \scratchbox=\box55
-\nofMPsegments=\count288
-\nofMParguments=\count289
+\nofMPsegments=\count290
+\nofMParguments=\count291
 \everyMPshowfont=\toks20
-\MPscratchCnt=\count290
-\MPscratchDim=\dimen167
-\MPnumerator=\count291
-\makeMPintoPDFobject=\count292
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen168
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
 \everyMPtoPDFconversion=\toks21
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -487,7 +521,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box56
-Package hyperref Info: Link coloring OFF on input line 49.
+Package hyperref Info: Link coloring OFF on input line 52.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -498,42 +532,42 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count293
+\c@section@level=\count295
 )
-LaTeX Info: Redefining \ref on input line 49.
-LaTeX Info: Redefining \pageref on input line 49.
-LaTeX Info: Redefining \nameref on input line 49.
+LaTeX Info: Redefining \ref on input line 52.
+LaTeX Info: Redefining \pageref on input line 52.
+LaTeX Info: Redefining \nameref on input line 52.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 52.
+(Font)              <7> on input line 55.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 52.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 52
+(Font)              <5> on input line 55.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 55
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-Underfull \vbox (badness 10000) detected at line 52
+Underfull \vbox (badness 10000) detected at line 55
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 55--64
-\OT1/ptm/m/it/10 de-tec-tion. The im-ple-men-ta-tion of ob-ject de-tec-tion
+Underfull \hbox (badness 1348) in paragraph at lines 58--67
+\OT1/ptm/m/it/10 de-tec-tion. The im-ple-ment-a-tion of ob-ject de-tec-tion
  []
 
 
-Underfull \hbox (badness 3428) in paragraph at lines 86--90
-\OT1/ptm/m/n/10 ParkY-ong Gyu Park[][], pub-lished a pa-per ti-tle An
+Underfull \hbox (badness 3428) in paragraph at lines 89--93
+\OT1/ptm/m/n/10 ParkY-ong Gyu Park[][], pub-lished a pa-per title An
  []
 
 
-Underfull \hbox (badness 8189) in paragraph at lines 86--90
-\OT1/ptm/m/n/10 In-tel-li-gent Video Se-cu-rity Sys-tem Us-ing Ob-ject
+Underfull \hbox (badness 8189) in paragraph at lines 89--93
+\OT1/ptm/m/n/10 In-tel-li-gent Video Se-cur-ity Sys-tem Us-ing Ob-ject
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
@@ -542,222 +576,114 @@ Underfull \hbox (badness 8189) in paragraph at lines 86--90
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-30.
+33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 3623) in paragraph at lines 132--133
+Underfull \hbox (badness 3623) in paragraph at lines 135--136
 []\OT1/ptm/m/n/10 LCD screen will be used to dis-play in-put
  []
 
 
-Underfull \hbox (badness 2150) in paragraph at lines 146--147
-\OT1/ptm/m/n/10 sent shape will be scanned us-ing a we-b-cam and
+Underfull \hbox (badness 2150) in paragraph at lines 149--150
+\OT1/ptm/m/n/10 sent shape will be scanned us-ing a web-cam and
  []
 
-<images/wor.png, id=68, 516.93124pt x 918.43124pt>
+<images/wor.png, id=64, 516.93124pt x 918.43124pt>
 File: images/wor.png Graphic file (type png)
 <use images/wor.png>
-Package pdftex.def Info: images/wor.png  used on input line 162.
+Package pdftex.def Info: images/wor.png  used on input line 165.
 (pdftex.def)             Requested size: 201.0173pt x 434.14262pt.
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 164.
+(Font)              using `OT1/cmss/bx/n' instead on input line 167.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 164.
+(Font)              using `OT1/cmss/bx/n' instead on input line 167.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--175
+Underfull \hbox (badness 10000) in paragraph at lines 174--178
 
  []
 
 [2 <./images/wor.png>]
-<images/sample-image.jpg, id=79, 642.4pt x 481.8pt>
+<images/sample-image.jpg, id=75, 642.4pt x 481.8pt>
 File: images/sample-image.jpg Graphic file (type jpg)
 <use images/sample-image.jpg>
-Package pdftex.def Info: images/sample-image.jpg  used on input line 206.
+Package pdftex.def Info: images/sample-image.jpg  used on input line 209.
 (pdftex.def)             Requested size: 201.0173pt x 132.5766pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 208.
+(Font)              using `OT1/cmss/bx/n' instead on input line 211.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/b/n' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 208.
+(Font)              using `OT1/cmss/bx/n' instead on input line 211.
 
 
-Overfull \hbox (70.99474pt too wide) in paragraph at lines 253--254
-\OT1/ptm/m/n/9 https://www.nytimes.com/2019/07/19/business/safe-deposit-box-the
-ft.html
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.254 ...-england-london-32414531?ocid=socialflow_
-                                                  twitter [Accessed 23 Oct. ...
-
-? 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 254.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 254.
-! Extra }, or forgotten $.
-l.254 ...cialflow_twitter [Accessed 23 Oct. 2020]}
-                                                  
-? 
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.255       \item
-                  {Staff Writer. (215). FNB safety deposit box heist victims...
-
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.255       \item {
-                   Staff Writer. (215). FNB safety deposit box heist victims...
-
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.255       \item {
-                   Staff Writer. (215). FNB safety deposit box heist victims...
-
-? 
-
-! LaTeX Error: Command \item invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.256       \item
-                  {Valera, M., Velastin, S.: Intelligent distributed surveil...
-
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.256       \item {
-                   Valera, M., Velastin, S.: Intelligent distributed surveil...
-
-? 
-! Interruption.
-<to be read again> 
-                   \@@par 
-l.256       \item {
-                   Valera, M., Velastin, S.: Intelligent distributed surveil...
-
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.256       \item {
-                   Valera, M., Velastin, S.: Intelligent distributed surveil...
-
-? 
-
-Overfull \hbox (1118.09328pt too wide) in paragraph at lines 254--256
-\OT1/ptm/m/n/9 https://www.bbc.com/news/uk-england-london-32414531?ocid=socialf
-low$[]\OML/cmm/m/it/9 witter\OT1/cmr/m/n/9 [\OML/cmm/m/it/9 Accessed\OT1/cmr/m/
-n/9 23\OML/cmm/m/it/9 Oct:\OT1/cmr/m/n/9 2020][][][]$ 
+Underfull \hbox (badness 3679) in paragraph at lines 266--270
+\OT1/ptm/m/n/9 [on-line]. Avail-able at: [][]www.businesstech.co.za[][],
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 256--257
-[]\OT1/ptm/m/n/9 Valera, M., Ve-lastin, S.: In-tel-li-gent dis-tributed
+Underfull \hbox (badness 4531) in paragraph at lines 272--275
+[]\OT1/ptm/m/n/9 Valera, M., Velastin, S.: In-tel-li-gent dis-trib-uted
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 256--257
+Underfull \hbox (badness 1960) in paragraph at lines 272--275
 \OT1/ptm/m/n/9 Im-age, Sig-nal Pro-cess. 152(2), 192{204 (2005)
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
-[]\OT1/ptm/m/n/9 Arde, An-gelique. \How safe is your
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--258
-\OT1/ptm/m/n/9 safety de-posit box?" IOL, 22 May 2019,
- []
-
-
-Overfull \hbox (84.35994pt too wide) in paragraph at lines 257--258
-\OT1/ptm/m/n/9 http://www.947.co.za/articles/2019/05/22/safe-deposit-boxes-on-t
-heir-way-out 
- []
-
-
-Overfull \hbox (275.0762pt too wide) in paragraph at lines 258--259
-\OT1/ptm/m/n/9 https://businesstech.co.za/news/lifestyle/332493/criminals-are-u
-sing-informers-to-target-your-home-heres-what-you-need-to-know/ 
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
+! Extra }, or forgotten \endgroup.
+l.280     }
+           
+? 
+! Extra }, or forgotten \endgroup.
+l.286     }
+           
+? ^^[j
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? 
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 293.
 [3 <./images/sample-image.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 293.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 293.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 293.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: CA168D8DA6C85F7E757A6AACEFD0D77A;635.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 3479FADE9E748007C38BFBBAF009F5B0;692
-(rerunfilecheck)             After:  CA168D8DA6C85F7E757A6AACEFD0D77A;635.
 
 LaTeX Warning: There were multiply-defined labels.
 
  )
-(\end occurred when \ifx on line 208 was incomplete)
-(\end occurred when \ifx on line 164 was incomplete) 
+(\end occurred when \ifx on line 211 was incomplete)
+(\end occurred when \ifx on line 167 was incomplete) 
 Here is how much of TeX's memory you used:
- 9301 strings out of 481239
- 156563 string characters out of 5920377
- 478562 words of memory out of 5000000
- 24353 multiletter control sequences out of 15000+600000
- 549610 words of font info for 58 fonts, out of 8000000 for 9000
+ 9876 strings out of 481239
+ 164888 string characters out of 5920377
+ 498965 words of memory out of 5000000
+ 24915 multiletter control sequences out of 15000+600000
+ 547575 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,10n,37p,870b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name
-{section.10} has been referenced but does not exist, replaced by a fixed one
-
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
-utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 142696 bytes).
+ 44i,10n,37p,870b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-d
+ist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
+s/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (3 pages, 103608 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
- 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 115 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
+ 23 named destinations out of 1000 (max. 500000)
+ 119 words of extra memory for PDF output out of 10000 (max. 10000000)
 
