@@ -38,10 +38,11 @@ password_label.place(x=68,y=200)
 password_entry = Entry(root)
 password_entry.place(x=240,y=200)
 
-images = ["./circle_test.png","./pentagram_test.png", "./triangle_test.png", "./rectacle_test.png"]
+images = ["./square.png","./pentagon.png", "./triangle.png", "./rectacle.png"]
 
 # randomImage = ''
 attach_file_name = random.choice(images)
+number_of_attempt = 3
 
 if not os.path.isfile('users'):
 
@@ -60,17 +61,26 @@ if not os.path.isfile('users'):
 
 
 
-        
+selectBTN = Button(root, text='Select A Shape',width=20,bg='green',fg='white', command=selectFile)
+
+def clearScreen():
+        cell_number_entry.delete(0, 'end')
+        password_entry.delete(0, 'end')
+        return 0
+
 def submit():
-        
         if (not cell_number_entry.get()):
             error_message = Label(root, text="Please provide an email",width=40,font=("bold", 10))
             error_message.place(x=80,y=160)
+
+            number_of_attempt =  number_of_attempt - 1
             return 0
 
         if (not password_entry.get()):
             error_message = Label(root, text="Please provide a password",width=40,font=("bold", 10))
             error_message.place(x=68,y=230)
+
+            number_of_attempt =  number_of_attempt - 1
             return 0
 
         conn = sqlite3.connect('users')
@@ -85,11 +95,16 @@ def submit():
         if not records:
             error_message = Label(root, text="User Not found in the database",width=40,font=("bold", 10))
             error_message.place(x=68,y=240)
+
+
+            number_of_attempt =  number_of_attempt - 1
             return 0
 
         if (records[0][0] != password_entry.get()):
             error_message = Label(root, text="Please provide a correct email",width=40,font=("bold", 10))
             error_message.place(x=68,y=240)
+
+            number_of_attempt =  number_of_attempt - 1
             return 0
 
 
@@ -143,7 +158,7 @@ def submit():
         error_message.place(x=68,y=370)
 
 
-        Button(root, text='Select A Shape',width=20,bg='green',fg='white', command=selectFile).place(x=180,y=420)
+        # Button(root, text='Select A Shape',width=20,bg='green',fg='white', command=selectFile).place(x=180,y=420)
 
         conn.commit()
         conn.close()
@@ -190,20 +205,30 @@ def selectFile():
 
         sd = ShapeDetector()
 
-        M_1= cv2.moments(cnts_1[0])
-        cX_1 = int((M_1["m10"] / M_1["m00"]) * ratio_1)
-        cY_1 = int((M_1["m01"] / M_1["m00"]) * ratio_1)
+        # M_1= cv2.moments(cnts_1[0])
+        # cX_1 = int((M_1["m10"] / M_1["m00"]) * ratio_1)
+        # cY_1 = int((M_1["m01"] / M_1["m00"]) * ratio_1)
         shape_1 = sd.detect(cnts_1[0])
 
 
-        M_2= cv2.moments(cnts_1[0])
-        cX_2 = int((M_2["m10"] / M_2["m00"]) * ratio_2)
-        cY_2 = int((M_2["m01"] / M_2["m00"]) * ratio_2)
+        # M_2= cv2.moments(cnts_1[0])
+        # cX_2 = int((M_2["m10"] / M_2["m00"]) * ratio_2)
+        # cY_2 = int((M_2["m01"] / M_2["m00"]) * ratio_2)
         shape_2 = sd.detect(cnts_2[0])
 
 
-        print("Shape one is a: " + shape_1)
-        print("Shape two is a: " + shape_2)
+        if (shape_2 == shape_1):
+            label_0 = Label(root, text="CONGRATULATION,",width=20,font=("bold", 20))
+            label_0.place(x=90,y=463)
+
+            label_0 = Label(root, text="You have access to your safe box",width=40,font=("bold", 20))
+            label_0.place(x=90,y=433)
+        else:
+            clearScreen()
+            label_0 = Label(root, text="Sorry, You have scan a wrong shape",width=40,font=("bold", 20))
+            label_0.place(x=90,y=463)
+            # number_of_attempt =  number_of_attempt - 1
+
 
 
 
