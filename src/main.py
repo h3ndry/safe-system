@@ -61,7 +61,7 @@ if not os.path.isfile('users'):
 
 
 
-selectBTN = Button(root, text='Select A Shape',width=20,bg='green',fg='white', command=selectFile)
+# selectBTN = Button(root, text='Select A Shape',width=20,bg='green',fg='white', command=selectFile)
 
 def clearScreen():
         cell_number_entry.delete(0, 'end')
@@ -117,8 +117,8 @@ def submit():
         Thank You
         '''
 #The mail addresses and password
-        sender_address = 'xxxxxxxxxxxxxxxxx'
-        sender_pass = 'xxxxxxxx'
+        sender_address = 'h3khoza@gmail.com'
+        sender_pass = 'new3hME/'
         receiver_address = cell_number_entry.get();
 
 #Setup the MIME
@@ -158,7 +158,7 @@ def submit():
         error_message.place(x=68,y=370)
 
 
-        # Button(root, text='Select A Shape',width=20,bg='green',fg='white', command=selectFile).place(x=180,y=420)
+        Button(root, text='Select A Shape',width=20,bg='green',fg='white', command=selectFile).place(x=180,y=420)
 
         conn.commit()
         conn.close()
